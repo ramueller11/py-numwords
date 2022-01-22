@@ -18,9 +18,9 @@ setuptools.setup(
     description="Interconvert English phrases with whole numbers.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ramueller11/py-numwords.git",
+    url="https://github.com/ramueller11/py-numwords",
     project_urls={
-        "Bug Tracker": "https://github.com/ramueller11/py-numwords.git",
+        "Bug Tracker": "https://github.com/ramueller11/py-numwords/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 2.7",
