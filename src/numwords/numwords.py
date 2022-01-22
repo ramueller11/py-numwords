@@ -1,7 +1,8 @@
 """
 numwords.py 
+https://github.com/ramueller11/py-numwords
 
-Interconvert words with whole numbers.
+Interconvert English words with whole numbers.
 
 Example: 
     int2words('555') = 'five hundred fifty five'
@@ -14,7 +15,8 @@ Example:
 
 import math
 
-# word bank --> convert words to a numeric value (pre-compiled)
+# word bank --> convert words to a numeric value (pre-compiled result of _generate_wordbank() )
+# otherwise, set this value to None and it will be generated on the first run of words2int
 _wordbank = {
 "none": 0, "nill": 0, "nothing": 0, "zeroth": 0, "hundred": 100, "a": 1,
 "first": 1, "second": 2, "third": 3, "hundredth": 100, "negative": -1, 
